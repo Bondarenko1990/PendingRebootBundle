@@ -1,6 +1,0 @@
-C:\Users\bonds\source\repos\WiXPendingReboot\Output\PendingRebootBundle\PendingRebootBundle.exe
-C:\Users\bonds\source\repos\WiXPendingReboot\Output\PendingRebootBundle\PendingRebootBundle.wixpdb
-C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.wixproj.CoreCompileInputs.cache
-C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.exe
-C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.wixpdb
-C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.wixproj.BindTracking.txt
