@@ -7,6 +7,15 @@
     <OutputPath>..\Output\PendingRebootBundle</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="files.cab" />
+    <None Include="install.bat" />
+    <None Include="Resources\ImDisk\files.cab" />
+    <None Include="Resources\ImDisk\install.bat" />
+    <None Include="Resources\ImDisk\SilentCMD.pdb" />
+    <None Include="SilentCMD.exe" />
+    <None Include="SilentCMD.pdb" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="WixToolset.Bal.wixext" Version="6.0.0-rc.2" />
     <PackageReference Include="WixToolset.Util.wixext" Version="6.0.0-rc.2" />
   </ItemGroup>
