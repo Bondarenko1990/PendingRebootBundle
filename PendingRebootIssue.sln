@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "NoRebootPackage", "NoRebootPackage\NoRebootPackage.wixproj", "{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}"
-EndProject
-Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "NoRebootBundle", "NoRebootBundle\NoRebootBundle.wixproj", "{A3B03E45-1189-430D-9D96-39D21BB1C53A}"
-EndProject
 Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "PendingRebootBundle", "PendingRebootBundle\PendingRebootBundle.wixproj", "{759A61F8-1851-4F60-BD54-D287B219451C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E009A18A-D3A0-4B3A-AEF0-D23D9DA298FB}"
@@ -22,22 +18,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Debug|x64.ActiveCfg = Debug|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Debug|x64.Build.0 = Debug|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Debug|x86.ActiveCfg = Debug|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Debug|x86.Build.0 = Debug|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Release|x64.ActiveCfg = Release|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Release|x64.Build.0 = Release|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Release|x86.ActiveCfg = Release|x64
-		{28B0985F-57A0-4FC8-AE86-6E78AE8FD4E6}.Release|x86.Build.0 = Release|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Debug|x64.ActiveCfg = Debug|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Debug|x64.Build.0 = Debug|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Debug|x86.ActiveCfg = Debug|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Debug|x86.Build.0 = Debug|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Release|x64.ActiveCfg = Release|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Release|x64.Build.0 = Release|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Release|x86.ActiveCfg = Release|x64
-		{A3B03E45-1189-430D-9D96-39D21BB1C53A}.Release|x86.Build.0 = Release|x64
 		{759A61F8-1851-4F60-BD54-D287B219451C}.Debug|x64.ActiveCfg = Debug|x64
 		{759A61F8-1851-4F60-BD54-D287B219451C}.Debug|x64.Build.0 = Debug|x64
 		{759A61F8-1851-4F60-BD54-D287B219451C}.Debug|x86.ActiveCfg = Debug|x86

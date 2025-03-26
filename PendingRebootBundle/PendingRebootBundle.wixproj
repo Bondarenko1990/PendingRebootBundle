@@ -10,9 +10,6 @@
     <PackageReference Include="WixToolset.Bal.wixext" Version="6.0.0-rc.2" />
     <PackageReference Include="WixToolset.Util.wixext" Version="6.0.0-rc.2" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NoRebootBundle\NoRebootBundle.wixproj" />
-  </ItemGroup>
   <!-- Workaround for https://github.com/firegiant/HeatWaveSupport/issues/73 -->
   <Target Name="CollectSuggestedVisualStudioComponentIds" />
 </Project>
