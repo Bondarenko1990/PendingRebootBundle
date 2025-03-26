@@ -1,0 +1,38 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal" xmlns:util="http://wixtoolset.org/schemas/v4/wxs/util">
+  <!-- Bundle with 1 ExePackage.
+        The source file for the ExePackage would not leave the computer in a state requiring a restart.
+        However, now that it is part of a parent bundle, this will leave the computer in a state requiring a restart. -->
+  <Bundle Name="PendingRebootBundle"
+          Manufacturer="Manufacturer"
+          Version="1.0.0.0"
+          UpgradeCode="70b4bbf0-55dc-4f33-8f39-610f88e39b4e">
+    <BootstrapperApplication>
+      <bal:WixStandardBootstrapperApplication LicenseUrl="https://www.example.com/license" Theme="hyperlinkLicense" />
+    </BootstrapperApplication>
+
+    <Chain>
+      <PackageGroupRef Id="ImDisk" />
+    </Chain>
+  </Bundle>
+
+  <Fragment>
+    <util:FileSearch
+            Id="ImDiskInstalled" Path="[ProgramFiles64Folder]\ImDisk\MountImg.exe" Variable="ImDiskExistence" Result="exists" />
+
+    <PackageGroup Id="ImDisk">
+      <ExePackage Id='ImDiskSetup'
+        DisplayName="ImDisk"
+        Compressed='yes'
+        PerMachine='yes'
+        CacheId='78ED7CC5-F692-4EAA-9339-52F272D7754A'
+        SourceFile='SilentCMD\SilentCMD.exe'
+        DetectCondition="ImDiskExistence"
+        InstallArguments="&quot;install.bat&quot; /fullsilent /lang:english /installfolder:&quot;C:\Program Files\ImDisk&quot;"
+        UninstallArguments="&quot;install.bat&quot; /silentuninstall /lang:english /installfolder:&quot;C:\Program Files\ImDisk&quot;">
+        <Payload SourceFile="Resources\ImDisk\install.bat" />
+        <Payload SourceFile="Resources\ImDisk\files.cab" />
+        <Provides Key="{BB51FC4C-889A-48E8-BF0F-0A98E1FFDB83}" Version="1.0.0.0" />
+      </ExePackage>
+    </PackageGroup>
+  </Fragment>
+</Wix>

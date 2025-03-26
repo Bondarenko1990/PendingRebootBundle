@@ -1,0 +1,15 @@
+BuiltPdbOutput	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.wixpdb
+BuiltTargetOutput	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\PendingRebootBundle.exe
+Input	C:\Users\bonds\.nuget\packages\wixtoolset.bal.wixext\6.0.0-rc.2\wixext6\WixToolset.BootstrapperApplications.wixext.dll
+Input	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\HyperlinkTheme.wxl
+Input	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\HyperlinkTheme.xml
+Input	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\logo.png
+Input	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\wixstdba.exe-1
+Input	Resources\ImDisk\files.cab
+Input	Resources\ImDisk\install.bat
+Input	Resources\Scripts\RemoveImDiskShortcuts.ps1
+Input	SilentCMD\SilentCMD.exe
+Intermediate	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\HyperlinkTheme.wxl
+Intermediate	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\HyperlinkTheme.xml
+Intermediate	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\logo.png
+Intermediate	C:\Users\bonds\source\repos\WiXPendingReboot\PendingRebootBundle\obj\x64\Debug\WixToolset.BootstrapperApplications.wixext_XH3ZRdmyJOLiXmaUwdaf6vUJt-U\wix-ir\wixstdba.exe-1
